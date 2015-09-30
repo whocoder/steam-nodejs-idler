@@ -1,0 +1,15 @@
+{
+	"username" : {
+		"password"			: null,
+		"auth_code"			: null,
+		"games_played"		: [
+				{ "game_id"	: 730  },
+				{ "game_id"	: 440  },
+				{ "game_id"	: 570  },
+				{ "game_id"	: 240  },
+				{ "game_id"	: 4000 }
+			],
+		"personastate"		: null,
+		"auto_reply_msg"	: "I am currently busy."
+	}
+}

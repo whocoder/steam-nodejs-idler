@@ -1,0 +1,11 @@
+{
+    "name": "steam-multi-idle",
+	"description": "Simplifying Steam idling. Neatly wraps node-steam login options and games played settings into the configuration file.",
+	"author": "whocodes",
+    "version": "0.0.1",
+    "private": false,
+    "dependencies": {
+        "steam": "1.1.0",
+        "winston": "1.0.2"
+    }
+}
