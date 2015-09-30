@@ -2,7 +2,7 @@
     "name": "steam-idle",
 	"description": "Simplifying Steam idling. Support for multiple accounts at the same time and multiple games at the same time.",
 	"author": "whocodes",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "private": false,
     "main": "app.js",
     "dependencies": {
