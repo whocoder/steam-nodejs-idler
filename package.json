@@ -1,6 +1,6 @@
 {
     "name": "steam-idle",
-	"description": "Simplifying Steam idling. Neatly wraps node-steam login options and games played settings into the configuration file.",
+	"description": "Simplifying Steam idling. Support for multiple accounts at the same time and multiple games at the same time.",
 	"author": "whocodes",
     "version": "0.0.1",
     "private": false,
@@ -12,5 +12,12 @@
     "repository": {
         "type": "git",
         "url" : "https://github.com/whocodes/node-steam-idle.git"
-    }
+    },
+    "keywords":[
+        "steam",
+        "idle",
+        "node-steam",
+        "steam-idle",
+        "node-steam-idle"
+    ]
 }
