@@ -38,8 +38,8 @@ module.exports = function(fs, winston, crypto, logindetails){
 			user.logOn({
 				account_name: account,
 				password: logindetails.password,
-				auth_code: ((logindetails.auth_code && !logindetails.sha_file) ? logindetails.auth_code : null),
-				sha_sentryfile: (logindetails.sha_file ? logindetails.sha_file : null)
+				auth_code: ((logindetails.auth_code && !logindetails.sha_sentryfile) ? logindetails.auth_code : null),
+				sha_sentryfile: (logindetails.sha_sentryfile ? logindetails.sha_sentryfile : null)
 			});
 		}
 		fs.exists('sentry/' + account + '.sentry', function(exists){
