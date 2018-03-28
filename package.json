@@ -1,19 +1,20 @@
 {
     "name": "steam-idle",
-	"description": "Simplifying Steam idling. Support for multiple accounts at the same time and multiple games at the same time.",
-	"author": "whocodes",
+    "description": "Simplifying Steam idling. Support for multiple accounts at the same time and multiple games at the same time.",
+    "author": "whocodes",
     "version": "0.0.2",
     "private": false,
     "main": "app.js",
     "dependencies": {
+        "protobufjs": "^5.0.1",
         "steam": "1.1.0",
         "winston": "1.0.2"
     },
     "repository": {
         "type": "git",
-        "url" : "https://github.com/whocodes/node-steam-idle.git"
+        "url": "https://github.com/whocodes/node-steam-idle.git"
     },
-    "keywords":[
+    "keywords": [
         "steam",
         "idle",
         "node-steam",
